@@ -1,0 +1,67 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : CLA_HR2
+Version: F-2011.09-SP3
+Date   : Wed Sep 30 11:25:01 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[6] (input port)
+  Endpoint: S[23] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CLA_HR2            5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  a[6] (in)                                               0.00       0.00 r
+  FAI_0/a[6] (CLA_HR1_0)                                  0.00       0.00 r
+  FAI_0/FAI_1/a[2] (CLA_HR0_numbit4_7)                    0.00       0.00 r
+  FAI_0/FAI_1/FAI_3/a (SPG_58)                            0.00       0.00 r
+  FAI_0/FAI_1/FAI_3/U3/Z (XOR2_X1)                        0.07       0.07 r
+  FAI_0/FAI_1/FAI_3/P (SPG_58)                            0.00       0.07 r
+  FAI_0/FAI_1/U5/ZN (OAI21_X1)                            0.04       0.11 f
+  FAI_0/FAI_1/U6/ZN (AOI221_X1)                           0.09       0.20 r
+  FAI_0/FAI_1/G (CLA_HR0_numbit4_7)                       0.00       0.20 r
+  FAI_0/U7/ZN (AOI21_X1)                                  0.03       0.24 f
+  FAI_0/U3/ZN (OAI211_X1)                                 0.04       0.28 r
+  FAI_0/U1/ZN (AND2_X1)                                   0.05       0.32 r
+  FAI_0/G (CLA_HR1_0)                                     0.00       0.32 r
+  U25/ZN (OR2_X2)                                         0.04       0.37 r
+  FAI_1/cin (CLA_HR1_1)                                   0.00       0.37 r
+  FAI_1/U18/ZN (NAND2_X1)                                 0.03       0.40 f
+  FAI_1/U17/ZN (NAND2_X1)                                 0.04       0.44 r
+  FAI_1/FAI_1/cin (CLA_HR0_numbit4_3)                     0.00       0.44 r
+  FAI_1/FAI_1/U14/ZN (NAND2_X1)                           0.03       0.47 f
+  FAI_1/FAI_1/U11/ZN (NAND2_X1)                           0.03       0.50 r
+  FAI_1/FAI_1/U25/ZN (AND2_X1)                            0.04       0.54 r
+  FAI_1/FAI_1/FAI_4/cin (SPG_41)                          0.00       0.54 r
+  FAI_1/FAI_1/FAI_4/U2/Z (XOR2_X1)                        0.06       0.60 r
+  FAI_1/FAI_1/FAI_4/S (SPG_41)                            0.00       0.60 r
+  FAI_1/FAI_1/S[3] (CLA_HR0_numbit4_3)                    0.00       0.60 r
+  FAI_1/S[7] (CLA_HR1_1)                                  0.00       0.60 r
+  S[23] (out)                                             0.00       0.60 r
+  data arrival time                                                  0.60
+
+  max_delay                                               0.59       0.59
+  output external delay                                   0.00       0.59
+  data required time                                                 0.59
+  --------------------------------------------------------------------------
+  data required time                                                 0.59
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.01
+
+
+1

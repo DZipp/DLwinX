@@ -1,0 +1,170 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : RippleCarryAdder_numbit32
+Version: F-2011.09-SP3
+Date   : Wed Sep 30 10:44:40 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RippleCarryAdder_numbit32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[0] (in)                                0.00       0.00 r
+  FAI_1/a (FullAdder_0)                    0.00       0.00 r
+  FAI_1/U3/ZN (AOI21_X1)                   0.03       0.03 f
+  FAI_1/U1/ZN (NOR2_X1)                    0.04       0.07 r
+  FAI_1/cout (FullAdder_0)                 0.00       0.07 r
+  FAI_2/cin (FullAdder_31)                 0.00       0.07 r
+  FAI_2/U1/ZN (AOI21_X1)                   0.03       0.10 f
+  FAI_2/U2/ZN (INV_X1)                     0.03       0.13 r
+  FAI_2/cout (FullAdder_31)                0.00       0.13 r
+  FAI_3/cin (FullAdder_30)                 0.00       0.13 r
+  FAI_3/U1/ZN (AOI21_X1)                   0.03       0.16 f
+  FAI_3/U2/ZN (INV_X1)                     0.03       0.19 r
+  FAI_3/cout (FullAdder_30)                0.00       0.19 r
+  FAI_4/cin (FullAdder_29)                 0.00       0.19 r
+  FAI_4/U1/ZN (AOI21_X1)                   0.03       0.22 f
+  FAI_4/U2/ZN (INV_X1)                     0.03       0.25 r
+  FAI_4/cout (FullAdder_29)                0.00       0.25 r
+  FAI_5/cin (FullAdder_28)                 0.00       0.25 r
+  FAI_5/U1/ZN (AOI21_X1)                   0.03       0.28 f
+  FAI_5/U2/ZN (INV_X1)                     0.03       0.31 r
+  FAI_5/cout (FullAdder_28)                0.00       0.31 r
+  FAI_6/cin (FullAdder_27)                 0.00       0.31 r
+  FAI_6/U1/ZN (AOI21_X1)                   0.03       0.34 f
+  FAI_6/U2/ZN (INV_X1)                     0.03       0.37 r
+  FAI_6/cout (FullAdder_27)                0.00       0.37 r
+  FAI_7/cin (FullAdder_26)                 0.00       0.37 r
+  FAI_7/U1/ZN (AOI21_X1)                   0.03       0.39 f
+  FAI_7/U2/ZN (INV_X1)                     0.03       0.42 r
+  FAI_7/cout (FullAdder_26)                0.00       0.42 r
+  FAI_8/cin (FullAdder_25)                 0.00       0.42 r
+  FAI_8/U1/ZN (AOI21_X1)                   0.03       0.45 f
+  FAI_8/U2/ZN (INV_X1)                     0.03       0.48 r
+  FAI_8/cout (FullAdder_25)                0.00       0.48 r
+  FAI_9/cin (FullAdder_24)                 0.00       0.48 r
+  FAI_9/U1/ZN (AOI21_X1)                   0.03       0.51 f
+  FAI_9/U2/ZN (INV_X1)                     0.03       0.54 r
+  FAI_9/cout (FullAdder_24)                0.00       0.54 r
+  FAI_10/cin (FullAdder_23)                0.00       0.54 r
+  FAI_10/U7/ZN (NAND2_X1)                  0.03       0.57 f
+  FAI_10/U5/ZN (NAND2_X1)                  0.03       0.59 r
+  FAI_10/cout (FullAdder_23)               0.00       0.59 r
+  FAI_11/cin (FullAdder_22)                0.00       0.59 r
+  FAI_11/U4/ZN (INV_X1)                    0.02       0.62 f
+  FAI_11/U3/ZN (AOI21_X1)                  0.04       0.66 r
+  FAI_11/cout (FullAdder_22)               0.00       0.66 r
+  FAI_12/cin (FullAdder_21)                0.00       0.66 r
+  FAI_12/U4/ZN (INV_X1)                    0.03       0.68 f
+  FAI_12/U3/ZN (AOI21_X1)                  0.05       0.73 r
+  FAI_12/cout (FullAdder_21)               0.00       0.73 r
+  FAI_13/cin (FullAdder_20)                0.00       0.73 r
+  FAI_13/U7/ZN (NAND2_X1)                  0.03       0.76 f
+  FAI_13/U5/ZN (NAND2_X1)                  0.03       0.79 r
+  FAI_13/cout (FullAdder_20)               0.00       0.79 r
+  FAI_14/cin (FullAdder_19)                0.00       0.79 r
+  FAI_14/U7/ZN (NAND2_X1)                  0.03       0.82 f
+  FAI_14/U5/ZN (NAND2_X1)                  0.03       0.85 r
+  FAI_14/cout (FullAdder_19)               0.00       0.85 r
+  FAI_15/cin (FullAdder_18)                0.00       0.85 r
+  FAI_15/U4/ZN (OAI22_X1)                  0.03       0.88 f
+  FAI_15/U5/ZN (INV_X1)                    0.03       0.91 r
+  FAI_15/cout (FullAdder_18)               0.00       0.91 r
+  FAI_16/cin (FullAdder_17)                0.00       0.91 r
+  FAI_16/U4/ZN (INV_X1)                    0.02       0.93 f
+  FAI_16/U3/ZN (AOI21_X1)                  0.05       0.98 r
+  FAI_16/cout (FullAdder_17)               0.00       0.98 r
+  FAI_17/cin (FullAdder_16)                0.00       0.98 r
+  FAI_17/U4/ZN (OAI22_X1)                  0.04       1.01 f
+  FAI_17/U5/ZN (INV_X1)                    0.03       1.04 r
+  FAI_17/cout (FullAdder_16)               0.00       1.04 r
+  FAI_18/cin (FullAdder_15)                0.00       1.04 r
+  FAI_18/U4/ZN (NOR2_X1)                   0.02       1.07 f
+  FAI_18/U5/ZN (NOR2_X1)                   0.04       1.10 r
+  FAI_18/cout (FullAdder_15)               0.00       1.10 r
+  FAI_19/cin (FullAdder_14)                0.00       1.10 r
+  FAI_19/U4/ZN (INV_X1)                    0.02       1.13 f
+  FAI_19/U3/ZN (AOI21_X1)                  0.04       1.17 r
+  FAI_19/cout (FullAdder_14)               0.00       1.17 r
+  FAI_20/cin (FullAdder_13)                0.00       1.17 r
+  FAI_20/U4/ZN (INV_X1)                    0.03       1.19 f
+  FAI_20/U3/ZN (AOI21_X1)                  0.04       1.23 r
+  FAI_20/cout (FullAdder_13)               0.00       1.23 r
+  FAI_21/cin (FullAdder_12)                0.00       1.23 r
+  FAI_21/U4/ZN (INV_X1)                    0.03       1.26 f
+  FAI_21/U3/ZN (AOI21_X1)                  0.04       1.30 r
+  FAI_21/cout (FullAdder_12)               0.00       1.30 r
+  FAI_22/cin (FullAdder_11)                0.00       1.30 r
+  FAI_22/U4/ZN (INV_X1)                    0.03       1.33 f
+  FAI_22/U3/ZN (AOI21_X1)                  0.04       1.37 r
+  FAI_22/cout (FullAdder_11)               0.00       1.37 r
+  FAI_23/cin (FullAdder_10)                0.00       1.37 r
+  FAI_23/U4/ZN (INV_X1)                    0.03       1.39 f
+  FAI_23/U3/ZN (AOI21_X1)                  0.04       1.43 r
+  FAI_23/cout (FullAdder_10)               0.00       1.43 r
+  FAI_24/cin (FullAdder_9)                 0.00       1.43 r
+  FAI_24/U4/ZN (INV_X1)                    0.03       1.46 f
+  FAI_24/U3/ZN (AOI21_X1)                  0.05       1.51 r
+  FAI_24/cout (FullAdder_9)                0.00       1.51 r
+  FAI_25/cin (FullAdder_8)                 0.00       1.51 r
+  FAI_25/U6/ZN (NAND2_X1)                  0.03       1.54 f
+  FAI_25/U4/ZN (NAND2_X1)                  0.03       1.57 r
+  FAI_25/cout (FullAdder_8)                0.00       1.57 r
+  FAI_26/cin (FullAdder_7)                 0.00       1.57 r
+  FAI_26/U4/ZN (INV_X1)                    0.02       1.59 f
+  FAI_26/U3/ZN (AOI21_X1)                  0.05       1.63 r
+  FAI_26/cout (FullAdder_7)                0.00       1.63 r
+  FAI_27/cin (FullAdder_6)                 0.00       1.63 r
+  FAI_27/U3/ZN (AOI21_X1)                  0.03       1.67 f
+  FAI_27/U5/ZN (INV_X1)                    0.03       1.70 r
+  FAI_27/cout (FullAdder_6)                0.00       1.70 r
+  FAI_28/cin (FullAdder_5)                 0.00       1.70 r
+  FAI_28/U7/ZN (NAND2_X1)                  0.03       1.72 f
+  FAI_28/U5/ZN (NAND2_X1)                  0.03       1.75 r
+  FAI_28/cout (FullAdder_5)                0.00       1.75 r
+  FAI_29/cin (FullAdder_4)                 0.00       1.75 r
+  FAI_29/U6/ZN (NAND2_X1)                  0.03       1.78 f
+  FAI_29/U4/ZN (NAND2_X1)                  0.03       1.81 r
+  FAI_29/cout (FullAdder_4)                0.00       1.81 r
+  FAI_30/cin (FullAdder_3)                 0.00       1.81 r
+  FAI_30/U7/ZN (NAND2_X1)                  0.03       1.84 f
+  FAI_30/U5/ZN (NAND2_X1)                  0.03       1.87 r
+  FAI_30/cout (FullAdder_3)                0.00       1.87 r
+  FAI_31/cin (FullAdder_2)                 0.00       1.87 r
+  FAI_31/U3/ZN (AOI21_X1)                  0.03       1.90 f
+  FAI_31/U5/ZN (INV_X1)                    0.03       1.93 r
+  FAI_31/cout (FullAdder_2)                0.00       1.93 r
+  FAI_32/cin (FullAdder_1)                 0.00       1.93 r
+  FAI_32/U5/ZN (XNOR2_X1)                  0.05       1.98 r
+  FAI_32/S (FullAdder_1)                   0.00       1.98 r
+  S[31] (out)                              0.00       1.98 r
+  data arrival time                                   1.98
+
+  max_delay                                0.50       0.50
+  output external delay                    0.00       0.50
+  data required time                                  0.50
+  -----------------------------------------------------------
+  data required time                                  0.50
+  data arrival time                                  -1.98
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -1.48
+
+
